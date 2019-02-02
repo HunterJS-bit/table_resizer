@@ -1,0 +1,30 @@
+{
+  "name": "table-resizer",
+  "version": "1.0.0",
+  "description": "An npm Package for resizing tables",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "babel src/index.js --out-file dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markomiljkovic/table_resizer.git"
+  },
+  "keywords": [
+    "table",
+    "resize",
+    "column",
+    "resizer"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "author": "Marko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markomiljkovic/table_resizer.git/issues"
+  },
+  "homepage": "https://github.com/markomiljkovic/table_resizer.git#readme"
+}

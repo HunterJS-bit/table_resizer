@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	table {
+		table-layout: auto;
+	}
+	table, th, td {
+		  border: 1px solid black;
+	}
+
+	</style>
+</head>
+<body>
+<table id="table" style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Nick</th> 
+    <th>Age</th>
+    <th>Phone</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+    <td>18</td>
+    <td>22856850</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+    <td>48</td>
+    <td>123456789</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+    <td>25</td>
+    <td>4564564564</td>
+  </tr>
+</table>
+</body>
+</html>
+</body>
+<script type="module">
+  import tableResizer from '../dist/index.js';
+  let table = document.getElementById('table');
+  tableResizer.init(table);
+</script>
+</html>
