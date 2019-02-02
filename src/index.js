@@ -1,4 +1,4 @@
-export default tableResizer = (function () {
+const tableResizer = (function () {
     
   // Keep this variable private inside this closure scope
   let dragColumn = null;
@@ -79,6 +79,6 @@ export default tableResizer = (function () {
 })();
 
 
-
+export default tableResizer;
 
 
