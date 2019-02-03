@@ -24,8 +24,8 @@ const tableResizer = (function () {
 
 
   const init = (element) => {
+    element.style.tableLayout = 'auto';
       let arrElements = element.querySelectorAll('tr th');
-
        arrElements.forEach((el) => {
              const resizer = document.createElement('div');
              Object.assign(resizer.style, { 

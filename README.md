@@ -1,6 +1,6 @@
 # @Table Resizer
 
-Table Resizer is a javascript library for dealing with word pluralization.
+Table Resizer is a javascript library for dealing with HTML table resizing
 
 ## Installation
 
